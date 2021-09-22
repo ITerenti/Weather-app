@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.cardlist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

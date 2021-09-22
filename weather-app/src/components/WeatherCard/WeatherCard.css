@@ -1,0 +1,35 @@
+.dayname{
+    font-size: 30px;
+    margin: 10px 0px 5px 0px;
+}
+
+.weather{
+    font-size: 25px;
+    margin: 0px 0px 15px 0px;
+}
+
+.wcard{
+    width: 17rem;
+    border: 1px black solid;
+    color: black;
+    box-shadow: 2px 4px #888888;
+    transition: all .3s ease-in-out;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.wcard:hover{
+    transform: scale(1.05);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info p{
+    margin: 0px 10px 5px 10px;
+}
