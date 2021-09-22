@@ -4,7 +4,7 @@ import WeatherCard from './components/WeatherCard/WeatherCard';
 function App() {
   return (
     <div className='App'>
-      <h1>Hello, welcome to my Weater app!</h1>
+      <h1>Hello, welcome to my Weather app!</h1>
       
       <div className='cardlist'>
       <WeatherCard />
