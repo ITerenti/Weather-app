@@ -1,12 +1,12 @@
 import React from 'react'
 import './WeatherCard.css'
-const WeatherCard = () => {
+const WeatherCard = ( {day} ) => {
 
     return(
         <div className='wcard'>
-            <p className='dayname'>Monday</p>
+            <p className='dayname'>{day}</p>
             <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            width="100" height="100"/>
+            width="100" height="100" alt="weather icon"/>
             <p className='weather'>Cloudy</p>
             <div className='info'>
                 <p>Temp: 22°C</p>

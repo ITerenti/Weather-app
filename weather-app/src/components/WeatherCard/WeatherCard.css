@@ -11,6 +11,7 @@
 .wcard{
     width: 17rem;
     border: 1px black solid;
+    background-color: rgb(170, 217, 255);
     color: black;
     box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
     transition: all .3s ease-in-out;

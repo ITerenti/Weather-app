@@ -1,0 +1,57 @@
+.maincard{
+    width: 30rem;
+    border: 1px black solid;
+    background-color:rgb(121, 186, 240);
+    color: black;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.maincardheader{
+    top: 5px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mcdayname{
+    left: px;
+    font-size: 30px;
+    margin: 10px 0px 5px 0px;
+}
+
+.mccityname{
+    font-size: 50px;
+    margin: 10px 0px 5px 10px;
+}
+
+.mcweather{
+    font-size: 25px;
+    margin: 10px 10px 5px 0px;
+}
+
+.cardcontent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mcinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 15px 15px;
+}
+
+.mcinfo p{
+    margin: 0px 10px 5px 10px;
+}
+
+.mcimg{
+    height: 200px;
+    width: 200px;
+    margin: 0 20px 0 0;
+}
