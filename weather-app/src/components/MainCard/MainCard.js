@@ -1,24 +1,24 @@
 import React from 'react';
 import './MainCard.css'
 
-const MainCard = ({day}) => {
+const MainCard = ({info, dayName}) => {
 
     return(
         <div className="maincard">
             <div className='maincardheader'>
                 <p className='mccityname'>Iasi</p>
-                <p className='mcdayname'>{day}</p>
-                <p className='mcweather'>Cloudy</p>
+                <p className='mcdayname'>{dayName}</p>
+                <p className='mcweather'>{info.weather[0].main}</p>
             </div>
             <div className="cardcontent">
                 <div className='mcinfo'>
-                    <p>Temp: 22°C</p>
-                    <p>Precipitation: 10%</p>
-                    <p>Humidity: 60%</p>
-                    <p>Wind: 18 km/h</p>
+                    <p>Day: {Math.round(info.temp.day)}°C</p>
+                    <p>Night: {Math.round(info.temp.night)}°C</p>
+                    <p>Humidity: {info.humidity}%</p>
+                    <p>Wind: {Math.round(info.wind_speed)} km/h</p>
                 </div>
-            <img className="mcimg" src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            width="200" height="200" alt="weather icon"/>
+            <img className="mcimg" src={`http://openweathermap.org/img/wn/${info.weather[0].icon}@2x.png`}
+            alt="weather icon"/>
             </div>
         </div>
     );
