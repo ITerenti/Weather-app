@@ -3,7 +3,7 @@
 This is a simple React app that describes the wather in Iasi, Romania for a period of 5 days.
 Utilises [OpenWeatherApi](https://openweathermap.org/) for weather data and icons.
 
-![weatherapp img](./weatherapp.png)
+![weatherapp img](./readme_image/weatherapp.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
